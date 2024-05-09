@@ -100,6 +100,7 @@ class _GooglePlaceAutoCompleteTextFieldState
                     setState(() {});
                   }
                 },
+                textInputAction: TextInputAction.done, // Sets keyboard button to "Done"
               ),
             ),
             (!widget.isCrossBtnShown)
